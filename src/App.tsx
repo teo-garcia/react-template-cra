@@ -1,8 +1,19 @@
+import './App.scss';
 import * as React from 'react';
-import './App.css';
+import { Global } from './components/Global/Global';
+import { Layout } from './components/Layout/Layout';
+import { Typography } from './components/Typography/Typography';
 
 function App() {
-  return <main>Hello World</main>;
+  return (
+    <Global>
+      <Layout>
+        <Typography size="l" weight="bold" color="secondary">
+          Hello World
+        </Typography>
+      </Layout>
+    </Global>
+  );
 }
 
 export default App;
