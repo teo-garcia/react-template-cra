@@ -7,7 +7,6 @@ function Typography(props: TypographyProps) {
   const {
     tagName = 'p',
     className,
-    size = 'xs',
     weight = 'regular',
     color = 'text',
     ...rest
@@ -17,7 +16,6 @@ function Typography(props: TypographyProps) {
     <Tag
       className={classNames(
         'typography',
-        `typography--${size}`,
         `typography--${weight}`,
         `typography--${color}`,
         className
