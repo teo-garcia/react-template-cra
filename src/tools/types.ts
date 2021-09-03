@@ -14,6 +14,7 @@ type TypographyTags = 'p' | 'span';
 type TypographySizes = 'xs' | 's' | 'm' | 'l' | 'xl' | 'xxl';
 type TypographyWeights = 'regular' | 'bold';
 type TypographyColors = 'background' | 'text' | 'primary' | 'secondary';
+
 export type TypographyProps = React.HTMLAttributes<HTMLOrSVGElement> & {
   children: ReactChildren;
   tagName?: TypographyTags;
