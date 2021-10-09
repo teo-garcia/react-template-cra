@@ -8,7 +8,7 @@ function App() {
   return (
     <Global>
       <Layout>
-        <Typography size="l" weight="bold" color="secondary">
+        <Typography weight="bold" color="secondary">
           Hello World
         </Typography>
       </Layout>
