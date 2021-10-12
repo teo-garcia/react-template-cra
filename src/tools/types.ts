@@ -21,3 +21,5 @@ export type TypographyProps = React.HTMLAttributes<HTMLOrSVGElement> & {
   weight?: Theme['typographyWeights'];
   color?: Theme['colors'];
 };
+
+export type ButtonProps = React.HtmlHTMLAttributes<HTMLButtonElement>;
