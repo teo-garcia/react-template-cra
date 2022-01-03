@@ -1,5 +1,5 @@
 import './Layout.scss';
-import * as React from 'react';
+
 import { LayoutProps } from '../../tools/types';
 
 function Layout(props: LayoutProps) {

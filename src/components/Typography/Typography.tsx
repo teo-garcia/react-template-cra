@@ -1,5 +1,5 @@
 import './Typography.scss';
-import * as React from 'react';
+
 import { TypographyProps } from '../../tools/types';
 import classNames from 'classnames';
 

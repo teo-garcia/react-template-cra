@@ -4,8 +4,8 @@
 :root {
   --color-text: #222222;
   --color-background: #ffffff;
-  --color-primary: #440A67;
-  --color-secondary: #93329E;
+  --color-primary: #440a67;
+  --color-secondary: #93329e;
   --font-primary: 'Roboto';
   --font-secondary: 'Roboto';
   --font-weight-primary: 400;
@@ -46,5 +46,6 @@ h6 {
   font-weight: var(--font-weight-secondary);
 }
 
-
-
+.title {
+  font-size: 8rem;
+}

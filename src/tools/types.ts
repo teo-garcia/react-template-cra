@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 type ReactChildren = React.ReactNode;
 
 type Theme = {
