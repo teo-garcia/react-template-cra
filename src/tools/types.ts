@@ -21,3 +21,8 @@ export type TypographyProps = React.HTMLAttributes<HTMLOrSVGElement> & {
 };
 
 export type ButtonProps = React.HtmlHTMLAttributes<HTMLButtonElement>;
+
+export type MetaProps = {
+  title: string;
+  description: string;
+};

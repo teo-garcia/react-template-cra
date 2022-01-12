@@ -1,8 +1,9 @@
+import { BrowserRouter } from 'react-router-dom';
 import { GlobalProps } from '../../tools/types';
 
 function Global(props: GlobalProps) {
   const { children } = props;
-  return <>{children}</>;
+  return <BrowserRouter>{children}</BrowserRouter>;
 }
 
 export { Global };
