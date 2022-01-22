@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Router /> tests Should match with the component snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="message"
+  >
+    <h1
+      class="typography typography--bold typography--text message__brand"
+    >
+      PING
+    </h1>
+    <p
+      class="typography typography--regular typography--neutral message__content"
+    >
+      We are launching soon!
+    </p>
+    <p
+      class="typography typography--regular typography--text message__subcontent"
+    >
+      Subscribe and get notified
+    </p>
+  </section>
+  <form
+    class="subscribe-form"
+  >
+    <label
+      class="subscribe-form__label"
+      for="email"
+    >
+      Your email address:
+    </label>
+    <input
+      aria-describedby="error-email"
+      class="subscribe-form__input"
+      id="email"
+      name="email"
+      value=""
+    />
+    <button
+      class="button subscribe-form__cta"
+    >
+      Notify Me
+    </button>
+  </form>
+  <img
+    alt="Ping dashboard preview"
+    src="dashboard.png"
+  />
+</DocumentFragment>
+`;

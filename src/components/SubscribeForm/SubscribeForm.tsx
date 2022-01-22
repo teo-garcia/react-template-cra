@@ -47,7 +47,11 @@ function SubscribeForm(props: SubscribeFormProps) {
         aria-describedby="error-email"
       />
       {error ? (
-        <span id="error-email" className="subscribe-form__validation">
+        <span
+          aria-invalid
+          id="error-email"
+          className="subscribe-form__validation"
+        >
           Please enter a valid email
         </span>
       ) : null}
