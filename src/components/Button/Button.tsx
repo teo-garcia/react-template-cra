@@ -4,8 +4,8 @@ import classNames from 'classnames';
 import { ButtonProps } from '../../tools/types';
 
 function Button(props: ButtonProps) {
-  const { className } = props;
-  return <button className={classNames('button', className)} {...props} />;
+  const { className, ...rest } = props;
+  return <button className={classNames('button', className)} {...rest} />;
 }
 
 export { Button };

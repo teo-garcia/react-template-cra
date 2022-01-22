@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
 @import '~modern-normalize';
 
 :root {
-  --color-text: #222222;
-  --color-background: #ffffff;
-  --color-primary: #440a67;
-  --color-secondary: #93329e;
-  --font-primary: 'Roboto';
-  --font-secondary: 'Roboto';
-  --font-weight-primary: 400;
-  --font-weight-secondary: 700;
+  --color-text: hsl(209, 33%, 12%);
+  --color-background: hsl(0, 0%, 100%);
+  --color-neutral: hsl(0, 0%, 40%);
+  --color-primary: hsl(223, 87%, 63%);
+  --color-secondary: hsl(223, 100%, 88%);
+  --color-tertiary: hsl(354, 100%, 50%);
+  --font-regular: 'Libre Franklin';
+  --font-medium: 'Libre Franklin';
+  --font-bold: 'Libre Franklin';
+  --font-weight-regular: 300;
+  --font-weight-medium: 600;
+  --font-weight-bold: 700;
   --fs-xs: 1.6rem;
   --fs-s: 2rem;
   --fs-m: 2.6rem;
@@ -30,10 +34,10 @@ html {
 }
 
 body {
-  font-family: var(--font-primary);
-  font-weight: var(--font-weight-primary);
-  background-color: var(--color-background);
-  color: var(--color-text);
+  font-family: var(--font-regular);
+  font-weight: var(--font-weight-regular);
+  background-color: var(--color-white);
+  color: var(--color-black);
 }
 
 h1,
@@ -42,6 +46,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-family-secondary);
-  font-weight: var(--font-weight-secondary);
+  font-family: var(--font-family-regular);
+  font-weight: var(--font-weight-bold);
+}
+
+img {
+  max-width: 100%;
 }

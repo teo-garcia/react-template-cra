@@ -1,0 +1,31 @@
+.message {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  &__brand {
+    font-size: 2.4rem;
+
+    @media (min-width: 1024px) {
+      font-size: 3rem;
+    }
+  }
+
+  &__content {
+    font-size: 2.4rem;
+    margin: 32px 0 24px;
+
+    @media (min-width: 1024px) {
+      font-size: 3.6rem;
+    }
+  }
+
+  &__subcontent {
+    font-size: 1.5rem;
+
+    @media (min-width: 1024px) {
+      font-size: 1.8rem;
+    }
+  }
+}

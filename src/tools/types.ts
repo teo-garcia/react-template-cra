@@ -1,8 +1,14 @@
 type ReactChildren = React.ReactNode;
 
 type Theme = {
-  typographyWeights: 'regular' | 'bold';
-  colors: 'background' | 'text' | 'primary' | 'secondary';
+  typographyWeights: 'regular' | 'medium' | 'bold';
+  colors:
+    | 'background'
+    | 'text'
+    | 'neutral'
+    | 'primary'
+    | 'secondary'
+    | 'tertiary';
 };
 
 export type LayoutProps = {
@@ -25,4 +31,16 @@ export type ButtonProps = React.HtmlHTMLAttributes<HTMLButtonElement>;
 export type MetaProps = {
   title: string;
   description: string;
+};
+
+export type MessageProps = {
+  brandName: string;
+  mainContent: string;
+  secondaryContent?: string;
+};
+
+export type SubscribeFormProps = {
+  label: string;
+  name: string;
+  onSubmit: (value: string) => void;
 };

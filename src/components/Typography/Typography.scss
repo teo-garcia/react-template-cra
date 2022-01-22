@@ -1,9 +1,37 @@
 .typography {
-  &--regular { font-weight: var(--font-weight-primary); }
-  &--bold { font-weight: var(--font-weight-secondary); }
+  &--regular {
+    font-weight: var(--font-weight-regular);
+  }
 
-  &--background { color: var(--color-background); }
-  &--text { color: var(--color-text); }
-  &--primary { color: var(--color-primary); }
-  &--secondary { color: var(--color-secondary); }
+  &--medium {
+    font-weight: var(--font-weight-medium);
+  }
+
+  &--bold {
+    font-weight: var(--font-weight-bold);
+  }
+
+  &--background {
+    color: var(--color-background);
+  }
+
+  &--text {
+    color: var(--color-text);
+  }
+
+  &--neutral {
+    color: var(--color-neutral);
+  }
+
+  &--primary {
+    color: var(--color-primary);
+  }
+
+  &--secondary {
+    color: var(--color-secondary);
+  }
+
+  &--tertiary {
+    color: var(--color-tertiary);
+  }
 }
