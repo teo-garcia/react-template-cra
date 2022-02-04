@@ -1,4 +1,3 @@
-import './App.scss';
 import { Global } from './components/Global/Global';
 import { Layout } from './components/Layout/Layout';
 import { Router } from './components/Router/Router';

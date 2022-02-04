@@ -24,7 +24,6 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  // plugins: [, /* 'react' */ '@typescript-eslint'],
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'react/react-in-jsx-scope': 'off',
