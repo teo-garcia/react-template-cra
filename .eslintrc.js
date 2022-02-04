@@ -14,6 +14,7 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:testing-library/react',
+    'plugin:storybook/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
