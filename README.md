@@ -6,10 +6,10 @@ A quick starter for building SPA using React and friends.
 
 Here're some of the project's best features:
 
-*   Quick initialization of a React template using CRA
-*   Pre-configuration of ESLint Prettier Husky Jest among other development packages
-*   Typescript fully support
-*   Style preprocessing with SASS
+- Quick initialization of a React template using CRA
+- Pre-configuration of ESLint Prettier Husky Jest among other development packages
+- Typescript fully support
+- Styles with CSS Modules
 
 ## Running Steps 👩🏽‍💻
 
@@ -29,12 +29,12 @@ yarn dev
 
 Technologies used in the project:
 
-*   React
-*   Typescript
-*   SASS
-*   Jest
-*   Testing Library
-*   ESLint
-*   Prettier
-*   Husky
-*   Lint Staged
+- React
+- Typescript
+- SASS
+- Jest
+- Testing Library
+- ESLint
+- Prettier
+- Husky
+- Lint Staged

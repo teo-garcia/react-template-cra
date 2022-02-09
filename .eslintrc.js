@@ -28,4 +28,12 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'react/react-in-jsx-scope': 'off',
   },
+  overrides: [
+    {
+      files: ['**/*.stories.*'],
+      rules: {
+        'import/no-anonymous-default-export': 'off',
+      },
+    },
+  ],
 };
