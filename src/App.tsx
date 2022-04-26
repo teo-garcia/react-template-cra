@@ -1,11 +1,14 @@
-import { Global } from './components/Global/Global';
-import { Router } from './components/Router/Router';
+import Providers from './components/Providers/Provider';
+import Router from './components/Router/Router';
+import { Layout } from 'primitivex';
 
 function App() {
   return (
-    <Global>
-      <Router />
-    </Global>
+    <Providers>
+      <Layout>
+        <Router />
+      </Layout>
+    </Providers>
   );
 }
 

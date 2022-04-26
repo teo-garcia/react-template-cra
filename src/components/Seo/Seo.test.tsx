@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
-import { Meta } from './Meta';
+import Seo from './Seo';
 
-describe('<Meta /> tests', function () {
+describe('<Seo /> tests', function () {
   test('Should match with the component snapshot', function () {
     const { asFragment } = render(
-      <Meta title="Ping | Home" description="This is the homepage of Ping" />
+      <Seo title="Home" description="This is the homepage" />
     );
     expect(asFragment()).toMatchSnapshot();
   });

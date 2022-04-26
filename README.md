@@ -7,7 +7,7 @@ A quick starter for building SPA using React and friends.
 Here're some of the project's best features:
 
 - Quick initialization of a React template using CRA
-- Pre-configuration of ESLint Prettier Husky Jest among other development packages
+- Pre-configuration of ESLint, Prettier, Husky, Jest among other development packages
 - Typescript fully support
 - Styles with CSS Modules
 
@@ -38,3 +38,8 @@ Technologies used in the project:
 - Prettier
 - Husky
 - Lint Staged
+
+## Issues
+
+- React Helmet is not working
+- Storybook has problems with React 18

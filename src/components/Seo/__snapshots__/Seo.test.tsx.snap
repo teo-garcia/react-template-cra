@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Router /> tests Should match with the component snapshot 1`] = `
+exports[`<Seo /> tests Should match with the component snapshot 1`] = `
 <DocumentFragment>
   <title>
     Home
   </title>
   <meta
-    content="Site homepage"
+    content="This is the homepage"
     name="description"
   />
   <meta

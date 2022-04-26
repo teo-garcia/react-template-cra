@@ -1,9 +1,9 @@
-import { Meta } from '../components/Meta/Meta';
+import Seo from '../components/Seo/Seo';
 
 function Home() {
   return (
     <>
-      <Meta title="Home" description="Site homepage" />
+      <Seo title="Home" description="Site homepage" />
     </>
   );
 }

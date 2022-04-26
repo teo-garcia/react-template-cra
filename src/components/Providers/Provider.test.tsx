@@ -1,14 +1,14 @@
 import { render, screen } from '@testing-library/react';
-import { Global } from './Global';
+import Providers from './Provider';
 
-describe('<Global /> tests', function () {
+describe('<Providers /> tests', function () {
   test('Should match with the component snapshot', function () {
-    const { asFragment } = render(<Global>Hello World</Global>);
+    const { asFragment } = render(<Providers>Hello World</Providers>);
     expect(asFragment()).toMatchSnapshot();
   });
 
   test('Should render the provided children prop', function () {
-    render(<Global>Hello World</Global>);
+    render(<Providers>Hello World</Providers>);
     expect(screen.getByText(/Hello World/i)).toBeInTheDocument();
   });
 });
