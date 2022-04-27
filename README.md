@@ -1,45 +1,64 @@
 # React Template CRA
 
-A quick starter for building SPA using React and friends.
+A quick starter for React applications and friends
 
-## Main Features 🎩
 
-Here're some of the project's best features:
+## Authors
 
-- Quick initialization of a React template using CRA
-- Pre-configuration of ESLint, Prettier, Husky, Jest among other development packages
-- Typescript fully support
-- Styles with CSS Modules
+- [@teo-garcia](https://www.github.com/teo-garcia)
 
-## Running Steps 👩🏽‍💻
 
-1. Install dependencies using yarn
+## Demo
+
+Insert gif or link to demo
+
+
+## Features
+
+- React 18
+- Typescript Support
+- ESLint, Prettier, Husky, Lint Staged
+- Jest & RTL
+
+
+## Run Locally
+
+Clone the project
 
 ```bash
-yarn
+  git clone https://github.com/teo-garcia/react-template-cra
 ```
 
-2. Run the project using yarn
+Go to the project directory
 
 ```bash
-yarn dev
+  cd react-template-cra
 ```
 
-## Built with 🚜
+Install dependencies using yarn
 
-Technologies used in the project:
+```bash
+  yarn
+```
 
-- React
-- Typescript
-- SASS
-- Jest
-- Testing Library
-- ESLint
-- Prettier
-- Husky
-- Lint Staged
+Start the next server
 
-## Issues
+```bash
+  yarn dev:web
+```
 
-- React Helmet is not working
-- Storybook has problems with React 18
+
+## Running Tests
+
+To run unit tests use
+
+```bash
+  yarn test:unit
+```
+
+## Roadmap
+
+- Upgrade Storybook to support React 18
+- Add demo in the README.md
+- Configure ESLint plugins properly
+- Support React Helmet
